@@ -120,11 +120,11 @@ background: url(./Assets/Image1.jpg);
 background-repeat: no-repeat;
   background-size: auto;
 }
-.span {
-text-decoration: underline
-color : black ;
+span {
+    text-decoration: underline blue;
+    
 }
-
-
- 
-
+.Login {
+    text-align: left;
+    color: black;
+}
