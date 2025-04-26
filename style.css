@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blueviolet;
+
+
+}
+
+Form {
+    background-color: white;
+
+}
+
+.MainDiv {
+    width: 440px;
+    height: 380px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-radius: 8px;
+
+}
+
+h2 {
+    
+    color: white;
+    font-size: 36px;
+    text-align: center;
+  
+   
+}
+p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.input-box input {
+    width: 70%;
+    padding: 10px 10px 10px 40px;
+    padding-top: 30px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #59268b;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+.input-box i {
+    position: absolute;
+
+    left: 0;
+    margin-left: 240px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: blueviolet;
+}
+
+.forgotPass {
+    padding-top: 30px;
+
+}
+
+.forgotPass a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+    height: 40px;
+    width: 370px;
+    font-size: 18px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+}
+
+.signup {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.788);
+    color: black;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #59268b;
+}
+
+
+.ImageDiv {
+    border: 1px solid black;
+    width: 440px;
+    height: 380px;
+    background-color: white;
+    margin-top: -384px;
+    margin-left: 670px;
+    padding-left: 30px;
+    padding-top: 50px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+background: url(./Assets/Image1.jpg);
+background-repeat: no-repeat;
+  background-size: auto;
+}
